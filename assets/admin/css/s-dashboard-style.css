@@ -1,0 +1,9 @@
+#wpwrap #adminmenu li a.wp-menu-open.sw-menu__item {
+    background: #52D3D8;
+    color: #fff;
+    font-weight: 600;
+}
+
+#wpwrap #adminmenu li.wp-menu-open.sw-menu__item .current {
+    color: #52D3D8;
+}
