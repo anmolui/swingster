@@ -21,7 +21,7 @@ $body_class = ($hide_banner == 'checked') ? ' sw-main__banner--hide' : '';
 	<header class="entry-header<?php echo $body_class ?>">
 		<?php
 		if (!empty($banner_title)) {
-			echo '<h1>' . esc_html($banner_title) . '</h1>';
+			echo '<h1>Title:' . esc_html($banner_title) . '</h1>';
 		} else {
 			echo the_title('<h1 class="entry-title">', '</h1>');
 		}
